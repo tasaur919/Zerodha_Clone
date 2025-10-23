@@ -40,6 +40,8 @@ function Navbar() {
               <Link to={'/products'} className='hover:text-blue-500'>Products</Link>
               <Link to={'/pricing'} className='hover:text-blue-500'>Pricing</Link>
               <Link to={'/support'} className='hover:text-blue-500'>Support</Link>
+              {/* <a href="https://zerodhaclone1234.netlify.app" className='hover:text-blue-500'>Dashboard</a> */}
+              <Link to="https://zerodhaclone1234.netlify.app" className='hover:text-blue-500'>Dashboard</Link>
               </div>
              <button className='md:hidden flex' onClick={toggle}><MenuIcon /></button>
           </nav>
@@ -53,7 +55,8 @@ function Navbar() {
               <Link to={'/products'} className='hover:text-blue-500' onClick={()=>setIsOpen(false)}>Products</Link>
               <Link to={'/pricing'} className='hover:text-blue-500' onClick={()=>setIsOpen(false)}>Pricing</Link>
               <Link to={'/support'} className='hover:text-blue-500' onClick={()=>setIsOpen(false)}>Support</Link>
-              
+              {/* <a href="https://zerodhaclone1234.netlify.app" className='hover:text-blue-500'>Dashboard</a> */}
+              <Link to="https://zerodhaclone1234.netlify.app" className='hover:text-blue-500'>Dashboard</Link>
             </ul>
             <button className='text-5xl flex  pt-5' onClick={toggle}> <CloseIcon  className='text-7xl'/></button>
           </div>
