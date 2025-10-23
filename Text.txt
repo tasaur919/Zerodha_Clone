@@ -1,0 +1,31 @@
+ installation:
+
+>>npm create vite@latest .
+>>npm install
+>>npm install tailwindcss @tailwindcss/vite         using  website
+>>npm install axios                to intract Backend to frontend through userAPI
+>>npm install react-router-dom
+>>npm install @mui/material @emotion/react @emotion/styled
+
+>>npm i react-chartjs-2 chart.js     for chart create web->react-chart2.js
+
+
+
+
+Backend install:
+>>npm init -y
+>>npm install express cors body-parser mongoose
+>>npm install nodemon 
+
+     "start":"node app.js",
+     "dev":"nodemon app.js" 
+>>npm install bcryptjs           for data secure -ecrypted/bcrypted ,10salt
+>>npm install dotenv             for secure data like database,port,etc
+>>npm install path                for Upload image in database through multer.
+>>npm install multer
+>>npm install jsonwebtoken        for reduce redundancy when access data to client site
+>>npm install passport passport-local passport-local-mongoose
+
+
+------------------------------------------------------------------------------------
+ref:'table_name'    jisse data match karna hai aur usper operation perform karna hai
